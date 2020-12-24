@@ -25,7 +25,7 @@ Hit the deploy to heroku button and follow the further instructions in the scree
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ydnear/python-aria-mirror-bot)
 
-# Before deoploying in heroku follow this step firts
+# Before deploying in heroku follow this step firts
 
 - first download Termux on Playstore
 
