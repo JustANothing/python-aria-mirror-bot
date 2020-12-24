@@ -25,6 +25,49 @@ Hit the deploy to heroku button and follow the further instructions in the scree
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ydnear/python-aria-mirror-bot)
 
+# Before deoploying in heroku follow this step firts
+
+- first download Termux on Playstore
+
+- termux-setup-storage first
+
+- cd / sdcard
+
+Note: the sdcard that is meant here is your cellphone's internal storage
+
+- pkg install git
+
+- git clone <Your aria repo link> "ariatg"
+
+- cd ariatg
+
+- pkg install python
+
+- pip3 install -r requirements-cli.txt
+
+- First download the secret.json file
+- If you rename it, it will be credentials.json
+continue to save it in / sdcard / ariatg
+
+- python3 generate_drive_token.py
+(follow the directions in termux)
+
+- Try opening the .gitignore in the ariatg folder or you can use nano .gitignore
+
+- delete the * .pickle line
+
+- to termux again
+
+- git config --global user.email "you@example.com" (fill in github email without the " )
+
+- git config --global user.name "Your Name" (fill in your github username without the " )
+
+- git add --all && git commit -asm "add creds"
+
+- git push -u origin master
+
+- just deployed to Heroku
+
 # How to deploy?
 Deploying is pretty much straight forward and is divided into several steps as follows:
 ## Installing requirements
