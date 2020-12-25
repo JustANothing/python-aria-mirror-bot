@@ -15,11 +15,11 @@
       "description": "The telegram bot token that you get from @BotFather",
       "value": ""
     },
-    "TELEGRAM_API": {
+    "API_KEY": {
       "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.",
       "value": ""
     },
-    "TELEGRAM_HASH": {
+    "API_HASH": {
       "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org",
       "value": ""
     },
@@ -61,6 +61,11 @@
       "description": "(Optional field) Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'",
       "value": "",
       "required": false
+    },
+    "MEGA_API_KEY": {
+      "description": "(Mega.nz api key to mirror mega.nz links.",
+      "value": "",
+      "required": true
     },
     "USE_SERVICE_ACCOUNTS": {
       "description": "(Optional field) (Leave empty if unsure) Whether to use service accounts or not. For this to work see Using service accounts section below.",
