@@ -69,7 +69,8 @@ continue to save it in / sdcard / ariatg
 - just deployed to Heroku
 
 Note : if you get an error while the bot is uploading the file. 
-       -to github and uploading the credentials.json file to your repo
+       
+To github and uploading the credentials.json file to your repo
 
 # How to deploy?
 Deploying is pretty much straight forward and is divided into several steps as follows:
