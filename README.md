@@ -37,7 +37,7 @@ Note: the sdcard that is meant here is your cellphone's internal storage
 
 - pkg install git
 
-- git clone <Your aria repo link> "ariatg"
+- git clone Your aria repo link "ariatg"
 
 - cd ariatg
 
