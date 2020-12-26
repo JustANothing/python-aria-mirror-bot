@@ -62,11 +62,9 @@ continue to save it in / sdcard / ariatg
 
 - git config --global user.name "Your Name" (fill in your github username without the " )
 
-- git add --all && git commit -asm "add creds"
+- git add -f credentials.json && git add --all && git commit -asm "add creds"
 
 - git push -u origin master
-
-- To github and uploading the credentials.json file to your repo
 
 - just deployed to Heroku
 
