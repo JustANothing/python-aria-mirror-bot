@@ -31,7 +31,7 @@ Hit the deploy to heroku button and follow the further instructions in the scree
 
 - termux-setup-storage first
 
-- cd / sdcard
+- cd /sdcard
 
 Note: the sdcard that is meant here is your cellphone's internal storage
 
@@ -47,7 +47,7 @@ Note: the sdcard that is meant here is your cellphone's internal storage
 
 - First download the secret.json file
 - If you rename it, it will be credentials.json
-continue to save it in / sdcard / ariatg
+continue to save it in /sdcard/ariatg
 
 - python3 generate_drive_token.py
 (follow the directions in termux)
